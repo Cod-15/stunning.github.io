@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet');
+
+html,
+body
+{
+    height: 100%;
+    margin: 0px;
+    background: #222121;
+}
+
+.greetings,
+p,
+h1, 
+h2 
+{
+    font-family: 'Noto Serif JP', serif;
+}
+
+.flex-container 
+{
+    z-index: +1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #2b2b2b; 
+}
+
+.header 
+{
+    display: flex;
+    align-items: center;
+    background-color: #2b2b2b;
+}
+
+ul  
+{
+    padding-left: 0px;
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    left: 437px;
+    margin: 0px;
+}
+
+ul li 
+{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 40px;
+}
+
+li a
+{   
+    color: #FFF;
+    text-decoration: none;
+}
+
+.logo img 
+{
+    width: 55px;
+    height: 55px;   
+    position: relative;
+}
+
+
+h1
+{
+    width: 319px;
+    height: 29px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    color: #FFF;
+    padding-left: 440px;
+    padding-top: 57px;
+    margin: 0px;
+}
+
+.myimg
+{
+    padding-left: 550px;
+    padding-top: 36px;
+}
+.img_php
+{
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    backdrop-filter: blur(2px);
+    width: 100px;
+    height: 100px;
+}
+
+
+.fullname
+{
+    padding-left: 491px;
+    padding-top: 15px;
+}
+
+p 
+{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin: 0px;
+}
+
+.knowledge
+{
+    display: flex;
+    list-style-type: none;
+    color: #FFF;
+    font-size: 16px;
+    padding-left: 365px;
+    padding-top: 79px;
+
+}
+
+.article
+{
+    width: 200px;
+    height: 30px;
+    color: #FFF;
+    font-size: 10px;
+    padding-left: 492px;
+    padding-top: 30px;
+}
+
+.footer
+{
+    color: #3c3c3c;
+    padding-top: 69px;
+    padding-left: 366px;
+}
+
+
